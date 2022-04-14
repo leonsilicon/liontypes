@@ -1,1 +1,4 @@
-export type { RemovePrivateProperties, RemovePublicProperties } from './types.js';
+export type {
+	RemovePrivateProperties,
+	RemovePublicProperties,
+} from './types.js';
