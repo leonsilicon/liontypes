@@ -1,6 +1,6 @@
 {
 	"name": "liontypes",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Some useful utility TypeScript types",
 	"license": "MIT",
 	"repository": {
