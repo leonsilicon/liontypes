@@ -1,7 +1,8 @@
 import { execaCommandSync as exec } from 'execa';
-import { copyPackageFiles, rmDist } from 'lion-system';
+import { copyPackageFiles, rmDist, chProjectDir } from 'lion-system';
 
+chProjectDir(import.meta.url)
 rmDist();
 exec('tsc');
 exec('tsc-alias');
-copyPackageFiles();
+await copyPackageFiles();
