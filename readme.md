@@ -1,3 +1,3 @@
 # liontypes
 
-[![npm version](https://badge.fury.io/js/liontypes.svg)](https://badge.fury.io/js/liontypes)
+[![npm version](https://img.shields.io/npm/v/@leonzalion/liontypes)](https://npmjs.com/package/liontypes)
